@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+find -name '*.txt' | \
+  while read line; do
+    base=$(echo ${line} | cut -d '.' -f -2)
+    mv ${line} ${base}.md
+  done
