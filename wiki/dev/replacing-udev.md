@@ -1,7 +1,7 @@
 REPLACING UDEV
 ________________________________________________________________________________
 
-As of the 20/01/2020, it is now possible to replace eudev with the device
+As of the 2020-01-20, it is now possible to replace eudev with the device
 manager of your choosing. This Wiki page will cover replacing eudev with
 busybox mdev, however the steps are more or less the same for all other device
 managers (smdev, vdev, ...).
